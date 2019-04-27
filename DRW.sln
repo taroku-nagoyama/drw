@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DRW", "DRW\DRW.csproj", "{7DB48416-F1F8-48A4-893B-8FEC6BCE31A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_nuke", "_nuke", "{28D01FCD-9546-4B9E-AEB0-B424D50DE584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miktemk", "..\..\vs\MiktemkCommons\Miktemk\Miktemk.csproj", "{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miktemk.Wpf", "..\..\vs\MiktemkCommons\Miktemk.Wpf\Miktemk.Wpf.csproj", "{DA6804E9-85DE-43C1-854E-6ABB3C85D970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DB48416-F1F8-48A4-893B-8FEC6BCE31A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB48416-F1F8-48A4-893B-8FEC6BCE31A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB48416-F1F8-48A4-893B-8FEC6BCE31A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB48416-F1F8-48A4-893B-8FEC6BCE31A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6804E9-85DE-43C1-854E-6ABB3C85D970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6804E9-85DE-43C1-854E-6ABB3C85D970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6804E9-85DE-43C1-854E-6ABB3C85D970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6804E9-85DE-43C1-854E-6ABB3C85D970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB69C87C-B374-4CD7-B0CF-FAA5541B2DF6} = {28D01FCD-9546-4B9E-AEB0-B424D50DE584}
+		{DA6804E9-85DE-43C1-854E-6ABB3C85D970} = {28D01FCD-9546-4B9E-AEB0-B424D50DE584}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04797A50-5657-4ECF-A3F1-E221672B5588}
+	EndGlobalSection
+EndGlobal
