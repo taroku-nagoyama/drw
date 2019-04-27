@@ -1,0 +1,4 @@
+#!/bin/sh
+
+DIR="`dirname "$0"`"
+python ${DIR}/takemeback_fromNOW.py --min 170 --max 210

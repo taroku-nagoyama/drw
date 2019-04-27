@@ -1,0 +1,6 @@
+#!/bin/sh
+
+DIR="`dirname "$0"`"
+#echo ${DIR}
+
+python ${DIR}/takemeback.py --min 120 --max 240
